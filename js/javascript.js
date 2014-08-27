@@ -1,6 +1,7 @@
 var slider = document.getElementById('slider'),
 	display = document.getElementsByClassName('display')[0],
 	bodyElement = document.getElementsByTagName('body')[0],
+	legend = document.getElementsByName('g-legend');
 	clickOnSlider = false,
 	coordinateX = 0,
 	coordinateY = 0;
@@ -47,4 +48,8 @@ slider.onmousemove = function(e){
 		clickOnSlider = false;
 		activatedAnimate();
 	}
+}
+
+legend[0].onclick = function(){
+	alert("ww");
 }

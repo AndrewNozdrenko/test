@@ -326,7 +326,11 @@ p,h1,ul,strong{
 	height: 246px;
 	background: url("../images/tool.png");
 	background-size: contain;
-	margin: 64px 0 0 322px;
+	margin: 64px 0 0 262px;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-pack:end;
+
 }
 
 .lever{
@@ -353,4 +357,38 @@ p,h1,ul,strong{
 	background: url("../images/right-balance.png");
 	background-size: contain;
 	left: 102px;
+}
+
+.fault{
+	color: #fff;
+	margin: 0 0 4px 35px;
+}
+
+.global-satisfaction{
+	position: absolute;
+	bottom: -22px;
+	left: 10px;
+	color: #5b2c81;
+	font: 600 12px PTSans;
+}
+
+.legend{
+	margin: 24px 0 0 130px;
+	font: 600 14px/1.8 PTSans;
+	position: relative;
+}
+
+.g-legend:before{
+	content: "";
+	width: 18px;
+	height: 18px;
+	background: #ff0090;
+	position: absolute;
+	left: -22px;
+	top: 3px;
+}
+
+.second-legend:before{
+	top: 29px;
+	background: #1685a2;
 }

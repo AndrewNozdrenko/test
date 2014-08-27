@@ -30,25 +30,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="50" selection-start="1997" selection-end="1997" vertical-scroll-proportion="-15.115385" vertical-offset="763" max-vertical-offset="1530">
+            <state line="69" column="88" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-13.807693" vertical-offset="814" max-vertical-offset="1632">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="352" column="51" selection-start="5173" selection-end="5173" vertical-scroll-proportion="0.7877947" vertical-offset="5416" max-vertical-offset="6137">
+            <state line="393" column="1" selection-start="5735" selection-end="5735" vertical-scroll-proportion="0.0" vertical-offset="6028" max-vertical-offset="6783">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javascript.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="javascript.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/javascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+            <state line="54" column="1" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.8585298" vertical-offset="299" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -67,9 +67,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/javascript.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/javascript.js" />
       </list>
     </option>
   </component>
@@ -271,21 +271,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="50" selection-start="1997" selection-end="1997" vertical-scroll-proportion="-15.115385" vertical-offset="763" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+        <state line="69" column="88" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-13.807693" vertical-offset="814" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="352" column="51" selection-start="5173" selection-end="5173" vertical-scroll-proportion="0.7877947" vertical-offset="5416" max-vertical-offset="6137">
+        <state line="393" column="1" selection-start="5735" selection-end="5735" vertical-scroll-proportion="0.0" vertical-offset="6028" max-vertical-offset="6783">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="1" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.8585298" vertical-offset="299" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
