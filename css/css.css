@@ -258,7 +258,7 @@ p,h1,ul,strong{
 	position: relative;
 	width: 840px;
 	height: 500px;
-	/*background: green;*/
+	overflow: hidden;
 }
 
 .patientReported h1{
@@ -272,7 +272,85 @@ p,h1,ul,strong{
 .block-container{
 	width: 820px;
 	margin: 0 auto;
-	height: 300px;
+	height: 354px;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 	background: #fff;
+	display: -webkit-box;
+}
+
+.arrow{
+	width: 16px;
+	height: 192px;
+	background: linear-gradient(to top, #1785a3, #ff0090);
+	margin: 78px 0 0 80px;
+	position: relative;
+}
+
+.arrow:after{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 18px solid transparent;
+	border-top: 26px solid #1785a3;
+	top:100%;
+	left: -10px;
+}
+
+.arrow:before{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 18px solid transparent;
+	border-bottom: 26px solid #ff0090;
+	bottom:100%;
+	left: -10px;
+}
+
+.arrow strong{
+	position: absolute;
+	top: -47px;
+	left: -48px;
+	width: 134px;
+}
+
+.arrow .secont-higer{
+	top: 222px;
+	left: -45px;
+}
+
+.tool{
+	position: relative;
+	width: 138px;
+	height: 246px;
+	background: url("../images/tool.png");
+	background-size: contain;
+	margin: 64px 0 0 322px;
+}
+
+.lever{
+	position: absolute;
+	background: #5b2c81 -webkit-radial-gradient(129px -64px, circle cover, rgba(255, 255, 255, 0.5), #5b2c81);
+	width: 255px;
+	height: 8px;
+	bottom: 100%;
+	left: -60px;
+}
+
+.balance{
+	position: absolute;
+	width: 129px;
+	height: 185px;
+	background: url("../images/left-balance.png");
+	background-size: contain;
+	left: -97px;
+}
+
+.right{
+	width: 129px;
+	height: 185px;
+	background: url("../images/right-balance.png");
+	background-size: contain;
+	left: 102px;
 }

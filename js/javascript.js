@@ -13,7 +13,7 @@ function activatedAnimate(){
 		bodyElement.classList.add('animate');
 	}
 }
-bodyElement.onload = function(event){
+bodyElement.onload = function(){
 	bodyElement.classList.add('animate');
 }
 slider.onmousedown = function(e){
