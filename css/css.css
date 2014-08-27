@@ -83,6 +83,7 @@ p,h1,ul,strong{
 	position: relative;
 	width: 840px;
 	height: 500px;
+	overflow: hidden;
 }
 
 .display{
@@ -183,14 +184,16 @@ p,h1,ul,strong{
 	text-align: center;
 	font-size: 12px;
 	opacity: 0;
-	transition:opacity 1s linear 1s;
+	transition:opacity 1s linear;
 }
 
-.graph-main.animate .bar{
+.animate .graph-main .bar{
 	-webkit-transform:scaleY(1);
+	transition-delay:1s;
 }
-.graph-main.animate .bar p{
+.animate .graph-main .bar p{
 	opacity: 1;
+	transition-delay:2s;
 }
 
 .percent-calculation{
@@ -255,5 +258,21 @@ p,h1,ul,strong{
 	position: relative;
 	width: 840px;
 	height: 500px;
-	background: green;
+	/*background: green;*/
+}
+
+.patientReported h1{
+	color: #432171;
+	font-size: 28px;
+	width: 700px;
+	text-align: center;
+	margin: 14px auto 48px auto;
+}
+
+.block-container{
+	width: 820px;
+	margin: 0 auto;
+	height: 300px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	background: #fff;
 }
