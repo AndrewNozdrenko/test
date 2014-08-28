@@ -537,12 +537,12 @@ h1{
 	height: 25px;
 	background: #fff;
 	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.7);
-	display: block;
 	display: -webkit-box;
 	-webkit-box-pack:center;
 	-webkit-box-align:center;
 	font: 300 17px frutiger_lt_std_black;
 	color: #E32385;
+	overflow: hidden;
 }
 
 .description-calc p{

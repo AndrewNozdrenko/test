@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="194a7364-2f14-4755-80f3-7fd927471816" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/javascript.js" afterPath="$PROJECT_DIR$/js/javascript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="116" selection-start="5404" selection-end="5404" vertical-scroll-proportion="-11.846154" vertical-offset="2259" max-vertical-offset="3723">
+            <state line="189" column="43" selection-start="6938" selection-end="6944" vertical-scroll-proportion="-11.192307" vertical-offset="2922" max-vertical-offset="3723">
               <folding />
             </state>
           </provider>
@@ -40,16 +38,7 @@
       <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="595" column="1" selection-start="9069" selection-end="9069" vertical-scroll-proportion="0.0" vertical-offset="9498" max-vertical-offset="10217">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonts.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/fonts.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646">
+            <state line="595" column="1" selection-start="9071" selection-end="9071" vertical-scroll-proportion="0.0" vertical-offset="9498" max-vertical-offset="10217">
               <folding />
             </state>
           </provider>
@@ -58,7 +47,16 @@
       <file leaf-file-name="javascript.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/javascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="20" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.8581363" vertical-offset="1049" max-vertical-offset="1785">
+            <state line="116" column="25" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.8344923" vertical-offset="1372" max-vertical-offset="2091">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fonts.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/fonts.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="39" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -172,6 +170,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/nginx-1.6.0/html/abbott/tevetens" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="Se" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -365,6 +364,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="43" selection-start="6938" selection-end="6944" vertical-scroll-proportion="-11.192307" vertical-offset="2922" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="595" column="1" selection-start="9071" selection-end="9071" vertical-scroll-proportion="0.0" vertical-offset="9498" max-vertical-offset="10217">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="39" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
@@ -372,23 +385,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="595" column="1" selection-start="9069" selection-end="9069" vertical-scroll-proportion="0.0" vertical-offset="9498" max-vertical-offset="10217">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="116" selection-start="5404" selection-end="5404" vertical-scroll-proportion="-11.846154" vertical-offset="2259" max-vertical-offset="3723">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="20" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.8581363" vertical-offset="1049" max-vertical-offset="1785">
+        <state line="116" column="25" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.8344923" vertical-offset="1372" max-vertical-offset="2091">
           <folding />
         </state>
       </provider>

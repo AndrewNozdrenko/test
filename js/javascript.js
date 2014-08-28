@@ -96,5 +96,23 @@ legend[1].onclick = function(){
 }
 
 inputs[0].oninput = function(){
-	alert(this.value);
+	var a, b, c, w, d, g, enterValue, sum, multiplay,
+		outputs = document.getElementsByTagName('output');
+	enterValue = this.value;
+
+	b = 182*(0.122*enterValue);
+	c = 16*(enterValue-(0.122*enterValue));
+	sum = b + c;
+	outputs[0].value = sum;
+
+	w = enterValue-(enterValue*0.122);
+	d = 14;
+	multiplay = d*w;
+	outputs[1].value = multiplay;
+
+	g = c * 0.064;
+	outputs[2].value = g.toFixed(2);
+
+	a = 3*(0.52*enterValue);
+	outputs[3].value = a;
 }
