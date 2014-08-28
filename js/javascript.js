@@ -5,7 +5,7 @@ var slider = document.getElementById('slider'),
 	lever = document.getElementsByClassName('lever')[0],
 	balance = document.getElementsByClassName('balance');
 	clickOnSlider = false,
-	clickBtn = false;
+	clickBtn = false,
 	coordinateX = 0,
 	coordinateY = 0;
 
@@ -16,6 +16,7 @@ function activatedAnimate(){
 	else{
 		bodyElement.classList.add('animate');
 	}
+	clickOnSlider = false;
 }
 bodyElement.onload = function(){
 	bodyElement.classList.add('animate');
@@ -42,19 +43,13 @@ slider.onmousemove = function(e){
 	if(temp >= 10 && temp <= 20 && clickOnSlider == true && getPosition > -1000){
 		getPosition = parseInt(getPosition) - 500;
 		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
-		clickOnSlider = false;
 		activatedAnimate();
 	}
 	else if(temp < -10 && temp > -20  && clickOnSlider == true && getPosition < 0){
 		getPosition = parseInt(getPosition) + 500;
 		display.style.webkitTransform = 'translateY('+ String(getPosition) + 'px)';
-		clickOnSlider = false;
 		activatedAnimate();
 	}
-}
-
-function clickButton(){
-	clickBtn = true;
 }
 
 legend[0].onclick = function(){
