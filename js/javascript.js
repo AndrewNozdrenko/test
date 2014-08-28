@@ -3,7 +3,8 @@ var slider = document.getElementById('slider'),
 	bodyElement = document.getElementsByTagName('body')[0],
 	legend = document.getElementsByClassName('g-legend'),
 	lever = document.getElementsByClassName('lever')[0],
-	balance = document.getElementsByClassName('balance');
+	balance = document.getElementsByClassName('balance'),
+	inputs = document.getElementsByTagName('input');
 	clickOnSlider = false,
 	clickBtn = false,
 	coordinateX = 0,
@@ -92,5 +93,8 @@ legend[1].onclick = function(){
 		balance[0].classList.add('left-balanse-right-translate');
 		balance[1].classList.add('right-balanse-right-translate');
 	}
+}
 
+inputs[0].oninput = function(){
+	alert(this.value);
 }

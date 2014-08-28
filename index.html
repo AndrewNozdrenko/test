@@ -83,7 +83,7 @@
 						<h1>Xarelto&reg; Estimator of Resources Saved</h1>
 						<div class="form first-form">
 							<div class="header-calculation">
-								<input type="text" placeholder="Enter number of DVT patiens here">
+								<input type="text" placeholder="Enter number of DVT patiens here" name="first-input">
 								<button class="calculate">CALCULATE</button>
 								<img src="images/question.png" class="question">
 							</div>
@@ -149,50 +149,52 @@
 
 						<div class="form last-form">
 							<div class="header-calculation">
-								<input type="text" placeholder="Enter number of DVT patiens here">
+								<input type="text" placeholder="Enter number of DVT patiens here" name="first-input">
 								<button class="calculate">CALCULATE</button>
 								<img src="images/question.png" class="question">
 							</div>
 							<div class="main-description">
-								<p>Assumptions to estimate calculations: proportion of patients with DVT contraindicated<br> for Xarelto or LMWH/VKA1,2  = 7.5%<br>
-									<strong>Number of patients with DVT – 7.5%</strong> =  <span>[A]</span> Total number of DVT patients<br> eligible for dual LMWH/VKA or Xarelto</p>
+								<p>Assumptions to estimate calculations: proportion of patients with PE contraindicated for Xarelto or LMWH/VKA1,2  = 15%<br>Number of patients with PE – 15% =  <span>[A]</span> Total number of PE patients eligible<br> for dual LMWH/VKA or Xarelto </p>
 							</div>
 							<div class="calculate-main">
 								<div class="caption-calc">
-									<p>Injections avoided<sup>3–7</sup></p>
+									<p>Injections avoided<sup>3–6,11</sup></p>
 									<output name="result-first">[B + C]</output>
 								</div>
 								<div class="description-calc">
 									<div class="plus"></div>
 									<p>
 										Injections avoided = number of LMWH injections received by cancer patients<br>
-										with DVT + LMWH injections received by DVT patients without cancer
+										with PE + LMWH injections received by PE patients without cancer
 									</p>
 								</div>
 							</div>
 
 							<div class="calculate-main">
 								<div class="caption-calc">
-									<p>INR clinic visits avoided<sup>3,7,8</sup></p>
+									<p>INR clinic visits avoided<sup>3,8,11</sup></p>
 									<output name="result-first">[I]</output>
 								</div>
 								<div class="description-calc">
 									<div class="plus"></div>
 									<p>
-										INR clinic visits avoided = number of DVT patients eligible for<br> VKA treatment × number of INR monitoring visits per patient
+										INR clinic visits avoided = number of PE patients eligible for VKA<br>
+										treatment × number of INR monitoring visits per patient
 									</p>
 								</div>
 							</div>
 
 							<div class="calculate-main">
 								<div class="caption-calc">
-									<p>Nurse visits avoided<sup>9</sup></p>
+									<p>Hospital bed days saved<sup>10</sup></p>
 									<output name="result-first">[J]</output>
 								</div>
 								<div class="description-calc">
 									<div class="plus"></div>
 									<p>
-										Nurse assistance visits avoided = number of non-cancer DVT patients eligible<br> for initial LMWH treatment × proportion of these patients treated by nurses<br> in their own homes × mean number of LMWH injections administered
+										Hospital bed days saved = number of eligible PE patients × proportion of PE<br>
+										patients hospitalised × number of hospital bed days saved per PE patient
+										treated with Xarelto
 									</p>
 								</div>
 							</div>

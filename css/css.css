@@ -555,7 +555,7 @@ h1{
 	width: 25px;
 	height: 25px;
 	background: #f0f0f0;
-	box-shadow: inset 0 0 3px rgba(217, 217, 217, 0.5);
+	box-shadow: inset 0 0 5px rgba(217, 217, 217, 0.8);
 	border-radius: 50%;
 	border: 1px solid #9f9e9f;
 	position: relative;
