@@ -4,9 +4,9 @@ var slider = document.getElementById('slider'),
 	legend = document.getElementsByClassName('g-legend'),
 	lever = document.getElementsByClassName('lever')[0],
 	balance = document.getElementsByClassName('balance'),
-	inputs = document.getElementsByTagName('input');
+	inputs = document.getElementsByTagName('input'),
+	outputs = document.getElementsByTagName('output'),
 	clickOnSlider = false,
-	clickBtn = false,
 	coordinateX = 0,
 	coordinateY = 0;
 
@@ -41,14 +41,14 @@ slider.onmousemove = function(e){
 	{
 		getPosition = 0;
 	}
-	if(temp >= 10 && temp <= 20 && clickOnSlider == true && getPosition > -1200){
+	if(temp >= 80 && clickOnSlider == true && getPosition > -1200){
 		getPosition = parseInt(getPosition) - 600;
 		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
 		activatedAnimate();
 	}
-	else if(temp < -10 && temp > -20  && clickOnSlider == true && getPosition < 0){
+	else if(temp <= -80 && clickOnSlider == true && getPosition < 0){
 		getPosition = parseInt(getPosition) + 600;
-		display.style.webkitTransform = 'translateY('+ String(getPosition) + 'px)';
+		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
 		activatedAnimate();
 	}
 }
@@ -96,23 +96,40 @@ legend[1].onclick = function(){
 }
 
 inputs[0].oninput = function(){
-	var a, b, c, w, d, g, enterValue, sum, multiplay,
-		outputs = document.getElementsByTagName('output');
+	var a, b, c, w, d, g, enterValue, sum, multiply;
 	enterValue = this.value;
 
 	b = 182*(0.122*enterValue);
 	c = 16*(enterValue-(0.122*enterValue));
 	sum = b + c;
-	outputs[0].value = sum;
+	outputs[0].value = sum.toFixed(2);
 
 	w = enterValue-(enterValue*0.122);
 	d = 14;
-	multiplay = d*w;
-	outputs[1].value = multiplay;
+	multiply = d*w;
+	outputs[1].value = multiply.toFixed(2);
 
 	g = c * 0.064;
 	outputs[2].value = g.toFixed(2);
 
 	a = 3*(0.52*enterValue);
-	outputs[3].value = a;
+	outputs[3].value = a.toFixed(2);
+}
+
+inputs[1].oninput = function(){
+	var b, c, w, d, sum, multiply, enterValue, result;
+	enterValue = this.value;
+
+	b = 182*(enterValue*0.176);
+	c = 16*(enterValue-0.176*enterValue);
+	sum = b + c;
+	outputs[4].value = sum.toFixed(2);
+
+	w = enterValue-(enterValue*0.176);
+	d = 14;
+	multiply = w * d;
+	outputs[5].value = multiply.toFixed(2);
+
+	result = enterValue * 0.896;
+	outputs[6].value = result.toFixed(2);
 }
