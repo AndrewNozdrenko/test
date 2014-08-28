@@ -80,7 +80,7 @@ h1{
 }
 
 .slider{
-	width: 840px;
+	width: 880px;
 	height: 600px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -88,13 +88,13 @@ h1{
 
 .graph{
 	position: relative;
-	width: 840px;
+	width: 880px;
 	height: 600px;
 	overflow: hidden;
 }
 
 .display{
-	width: 840px;
+	width: 880px;
 	height: 1800px;
 	-webkit-translate:translateY('0px');
 	transition:all 1s ease-in-out;
@@ -252,7 +252,7 @@ h1{
 
 .patientReported{
 	position: relative;
-	width: 840px;
+	width: 880px;
 	height: 600px;
 	overflow: hidden;
 }
@@ -426,8 +426,8 @@ h1{
 
 .bottom-description{
 	position: absolute;
-	bottom: 35px;
-	right: 10px;
+	bottom: 37px;
+	right: 30px;
 	width: 145px;
 	height: 83px;
 	background: #fff;
@@ -447,7 +447,7 @@ h1{
 
 .calculation{
 	position: relative;
-	width: 840px;
+	width: 880px;
 	height: 600px;
 }
 
@@ -461,7 +461,7 @@ h1{
 
 .header-calculation{
 	height: 50px;
-	width: 420px;
+	width: 418px;
 	background: -webkit-linear-gradient(bottom, #9c9c9d, #fdfeff);
 	border: 1px solid #9c9b9c;
 	display: -webkit-box;
@@ -497,7 +497,7 @@ h1{
 	display: block;
 }
 
-.calculate-first{
+.calculate-main{
 	margin-bottom: 5px;
 }
 
@@ -584,5 +584,13 @@ h1{
 .description-calc{
 	background: -webkit-linear-gradient(bottom, #C1C0C0, #e0e0df);
 	display: -webkit-box;
+	-webkit-box-align: center;
 	padding: 10px;
+}
+
+.first-form{
+	float: left;
+}
+.last-form{
+	float: right;
 }
