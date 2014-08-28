@@ -340,6 +340,14 @@ p,h1,ul,strong{
 	height: 8px;
 	bottom: 100%;
 	left: -60px;
+	transition:all 1s linear;
+}
+
+.lever.left-rotate{
+	 -webkit-transform:rotateZ(-10deg);
+ }
+.lever.right-rotate{
+	-webkit-transform:rotateZ(10deg);
 }
 
 .balance{
@@ -357,6 +365,24 @@ p,h1,ul,strong{
 	background: url("../images/right-balance.png");
 	background-size: contain;
 	left: 102px;
+	transition:all 1s linear;
+}
+.left{
+	transition:all 1s linear;
+}
+
+.left-balanse-left-translate{
+	-webkit-transform:translateY(17px);
+}
+.left-balanse-right-translate{
+	-webkit-transform:translateY(-17px);
+}
+
+.right-balanse-left-translate{
+	-webkit-transform:translateY(-17px);
+}
+.right-balanse-right-translate{
+	-webkit-transform:translateY(17px);
 }
 
 .fault{

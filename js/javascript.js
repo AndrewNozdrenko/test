@@ -1,8 +1,11 @@
 var slider = document.getElementById('slider'),
 	display = document.getElementsByClassName('display')[0],
 	bodyElement = document.getElementsByTagName('body')[0],
-	legend = document.getElementsByName('g-legend');
+	legend = document.getElementsByClassName('g-legend'),
+	lever = document.getElementsByClassName('lever')[0],
+	balance = document.getElementsByClassName('balance');
 	clickOnSlider = false,
+	clickBtn = false;
 	coordinateX = 0,
 	coordinateY = 0;
 
@@ -50,6 +53,49 @@ slider.onmousemove = function(e){
 	}
 }
 
+function clickButton(){
+	clickBtn = true;
+}
+
 legend[0].onclick = function(){
-	alert("ww");
+	if(lever.classList.contains('right-rotate')){
+		lever.classList.remove('right-rotate');
+		lever.classList.add('left-rotate');
+	}
+	else{
+		lever.classList.add('left-rotate');
+	}
+	if(balance[0].classList.contains('left-balanse-right-translate')){
+		balance[0].classList.remove('left-balanse-right-translate');
+		balance[1].classList.remove('right-balanse-right-translate');
+
+		balance[0].classList.add('left-balanse-left-translate');
+		balance[1].classList.add('right-balanse-left-translate');
+	}
+	else{
+		balance[0].classList.add('left-balanse-left-translate');
+		balance[1].classList.add('right-balanse-left-translate');
+	}
+}
+
+legend[1].onclick = function(){
+	if(lever.classList.contains('left-rotate')){
+		lever.classList.remove('left-rotate');
+		lever.classList.add('right-rotate');
+	}
+	else{
+		lever.classList.add('right-rotate');
+	}
+	if(balance[1].classList.contains('right-balanse-left-translate')){
+		balance[0].classList.remove('left-balanse-left-translate');
+		balance[1].classList.remove('right-balanse-left-translate');
+
+		balance[0].classList.add('left-balanse-right-translate');
+		balance[1].classList.add('right-balanse-right-translate');
+	}
+	else{
+		balance[0].classList.add('left-balanse-right-translate');
+		balance[1].classList.add('right-balanse-right-translate');
+	}
+
 }
