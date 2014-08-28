@@ -6,25 +6,28 @@
 @font-face {
 	font-family: FrutigerLT;
 	src: url(../fonts/Frutiger-LT-75-Black.ttf);
-	font-weight: 300;
-	font-style: normal;
 }
 @font-face {
 	font-family: FrutigerLTBold;
 	src: url(../fonts/Frutiger-LT-65-Bold.ttf);
-	font-weight: 600;
-	font-style: normal;
 }
 @font-face {
 	font-family: FrutigerLTLight;
 	src: url(../fonts/FrutigerLT45Light.ttf);
-	font-weight: 600;
-	font-style: normal;
 }
 
 @font-face {
 	font-family: FrutigerLTStd-BlackCn;
 	src: url(../fonts/FrutigerLTStd-BlackCn.otf);
-	font-weight: 600;
-	font-style: normal;
+}
+
+
+@font-face {
+	font-family: frutiger_lt_std_black;
+	src: url(../fonts/frutiger_lt_std_black.otf);
+}
+
+@font-face {
+	font-family: FrutigerLT87ExtraBlackCondensed;
+	src: url(../fonts/FrutigerLT87ExtraBlackCondensed.ttf);
 }

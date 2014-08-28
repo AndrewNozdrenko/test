@@ -40,13 +40,13 @@ slider.onmousemove = function(e){
 	{
 		getPosition = 0;
 	}
-	if(temp >= 10 && temp <= 20 && clickOnSlider == true && getPosition > -1000){
-		getPosition = parseInt(getPosition) - 500;
+	if(temp >= 10 && temp <= 20 && clickOnSlider == true && getPosition > -1200){
+		getPosition = parseInt(getPosition) - 600;
 		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
 		activatedAnimate();
 	}
 	else if(temp < -10 && temp > -20  && clickOnSlider == true && getPosition < 0){
-		getPosition = parseInt(getPosition) + 500;
+		getPosition = parseInt(getPosition) + 600;
 		display.style.webkitTransform = 'translateY('+ String(getPosition) + 'px)';
 		activatedAnimate();
 	}

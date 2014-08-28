@@ -81,7 +81,7 @@ h1{
 
 .slider{
 	width: 840px;
-	height: 500px;
+	height: 600px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -89,13 +89,13 @@ h1{
 .graph{
 	position: relative;
 	width: 840px;
-	height: 500px;
+	height: 600px;
 	overflow: hidden;
 }
 
 .display{
 	width: 840px;
-	height: 1500px;
+	height: 1800px;
 	-webkit-translate:translateY('0px');
 	transition:all 1s ease-in-out;
 }
@@ -245,7 +245,7 @@ h1{
 .footer-text{
 	font-size: 12px;
 	color: #000;
-	margin: 124px auto 0 auto;
+	margin: 52px auto 0 auto;
 	padding-bottom: 72px;
 	width: 810px;
 }
@@ -253,7 +253,7 @@ h1{
 .patientReported{
 	position: relative;
 	width: 840px;
-	height: 500px;
+	height: 600px;
 	overflow: hidden;
 }
 
@@ -268,7 +268,7 @@ h1{
 .block-container{
 	width: 820px;
 	margin: 0 auto;
-	height: 334px;
+	height: 400px;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 	background: #fff;
 	display: -webkit-box;
@@ -278,7 +278,7 @@ h1{
 	width: 16px;
 	height: 192px;
 	background: linear-gradient(to top, #1785a3, #ff0090);
-	margin: 61px 0 0 80px;
+	margin: 98px 0 0 80px;
 	position: relative;
 }
 
@@ -322,7 +322,7 @@ h1{
 	height: 246px;
 	background: url("../images/tool.png");
 	background-size: contain;
-	margin: 44px 0 0 262px;
+	margin: 78px 0 0 262px;
 	display: -webkit-box;
 	-webkit-box-orient:vertical;
 	-webkit-box-pack:end;
@@ -426,7 +426,7 @@ h1{
 
 .bottom-description{
 	position: absolute;
-	bottom: 2px;
+	bottom: 35px;
 	right: 10px;
 	width: 145px;
 	height: 83px;
@@ -448,7 +448,7 @@ h1{
 .calculation{
 	position: relative;
 	width: 840px;
-	height: 500px;
+	height: 600px;
 }
 
 .calculation h1{
@@ -497,6 +497,10 @@ h1{
 	display: block;
 }
 
+.calculate-first{
+	margin-bottom: 5px;
+}
+
 .main-description p{
 	font: 300 11px FrutigerLTLight;
 	width: 394px;
@@ -505,10 +509,80 @@ h1{
 
 .main-description{
 	padding: 3px 0;
-	background: -webkit-linear-gradient(bottom, #e8e9e8, #fefefe);
+	background: -webkit-linear-gradient(bottom, #fefefe, #e8e9e8);
 }
 
 .main-description span{
 	color: #E32385;
 	font-family:  FrutigerLTStd-BlackCn;
+}
+.main-description p strong{
+	color: #7B7A7A;
+	font-family: FrutigerLTStd-BlackCn;
+}
+
+.caption-calc{
+	background: #b6b5b5;
+	padding:7px 8px;
+	display: -webkit-box;
+	-webkit-box-pack:justify;
+}
+.caption-calc p{
+	font: 300 17px frutiger_lt_std_black;
+	color: #fff;
+}
+
+.caption-calc output{
+	width: 80px;
+	height: 25px;
+	background: #fff;
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.7);
+	display: block;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	font: 300 17px frutiger_lt_std_black;
+	color: #E32385;
+}
+
+.description-calc p{
+	font: 300 10px/1.5 FrutigerLTStd-BlackCn;
+	color: #fff;
+	margin: 2px 0 0 8px;
+}
+
+.plus{
+	width: 32px;
+	height: 32px;
+	background: #f0f0f0;
+	box-shadow: inset 0 0 3px rgba(217, 217, 217, 0.5);
+	border-radius: 50%;
+	border: 1px solid #9f9e9f;
+	position: relative;
+}
+
+.plus:after{
+	content: "";
+	position: absolute;
+	width: 17px;
+	height: 4px;
+	left: 8px;
+	top: 14px;
+	background: #7c7a7b;
+}
+.plus:before{
+	content: "";
+	position: absolute;
+	width: 17px;
+	height: 4px;
+	background: #7c7a7b;
+	-webkit-transform:rotateZ(90deg);
+	left: 8px;
+	top: 14px;
+}
+
+.description-calc{
+	background: -webkit-linear-gradient(bottom, #C1C0C0, #e0e0df);
+	display: -webkit-box;
+	padding: 10px;
 }
