@@ -6,6 +6,7 @@ var slider = document.getElementById('slider'),
 	balance = document.getElementsByClassName('balance'),
 	inputs = document.getElementsByTagName('input'),
 	outputs = document.getElementsByTagName('output'),
+	buttons = document.getElementsByTagName('li');
 	clickOnSlider = false,
 	coordinateX = 0,
 	coordinateY = 0;
@@ -151,4 +152,18 @@ inputs[1].oninput = function(){
 
 	result = enterValue * 0.896;
 	outputs[6].value = result.toFixed(2);
+}
+
+
+buttons[1].onclick = function(e){
+	e.preventDefault();
+	display.style.webkitTransform = 'translateY('+ 0 + 'px)';
+}
+buttons[2].onclick = function(e){
+	e.preventDefault();
+	display.style.webkitTransform = 'translateY('+ -700 + 'px)';
+}
+buttons[3].onclick = function(e){
+	e.preventDefault();
+	display.style.webkitTransform = 'translateY('+ -1400 + 'px)';
 }
