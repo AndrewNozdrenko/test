@@ -9,10 +9,6 @@ body{
 	font:300 14px FrutigerLT;
 }
 
-p,h1,ul,strong{
-	font-family: PTSans;
-}
-
 h1{
 	color: #432171;
 	font: 28px FrutigerLT;
@@ -462,12 +458,12 @@ p.bottom-bar-text{
 }
 
 .bottom-description p{
-	font: 18px FrutigerLTBold;
+	font: 18px FrutigerLTStd-Black;
 	padding-top: 14px;
 }
 
 .bottom-description span{
-	font-size: 12px;
+	font: 14px FrutigerLTStd-Black;
 }
 
 .calculation{
