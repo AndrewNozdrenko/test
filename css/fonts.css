@@ -27,7 +27,8 @@
 	src: url(../fonts/frutiger_lt_std_black.otf);
 }
 
+
 @font-face {
-	font-family: FrutigerLT87ExtraBlackCondensed;
+	font-family: FrutigerLTBlackCondensed;
 	src: url(../fonts/FrutigerLT87ExtraBlackCondensed.ttf);
 }

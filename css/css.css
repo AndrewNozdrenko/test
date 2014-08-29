@@ -19,6 +19,10 @@ h1{
 	text-align: center;
 }
 
+.clear{
+	clear: both;
+}
+
 .wrapper{
 	width: 1024px;
 	margin:0 auto;
@@ -81,7 +85,7 @@ h1{
 
 .slider{
 	width: 880px;
-	height: 600px;
+	height: 700px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -89,13 +93,13 @@ h1{
 .graph{
 	position: relative;
 	width: 880px;
-	height: 600px;
+	height: 700px;
 	overflow: hidden;
 }
 
 .display{
 	width: 880px;
-	height: 1800px;
+	height: 2100px;
 	-webkit-translate:translateY('0px');
 	transition:all 1s ease-in-out;
 }
@@ -245,7 +249,7 @@ h1{
 .footer-text{
 	font-size: 12px;
 	color: #000;
-	margin: 52px auto 0 auto;
+	margin: 10px auto 0 auto;
 	padding-bottom: 72px;
 	width: 810px;
 }
@@ -253,7 +257,7 @@ h1{
 .patientReported{
 	position: relative;
 	width: 880px;
-	height: 600px;
+	height: 700px;
 	overflow: hidden;
 }
 
@@ -426,7 +430,7 @@ h1{
 
 .bottom-description{
 	position: absolute;
-	bottom: 37px;
+	bottom: 135px;
 	right: 30px;
 	width: 145px;
 	height: 83px;
@@ -448,7 +452,7 @@ h1{
 .calculation{
 	position: relative;
 	width: 880px;
-	height: 600px;
+	height: 700px;
 }
 
 .calculation h1{
@@ -488,6 +492,7 @@ h1{
 .header-calculation input::-webkit-input-placeholder{
 	font: 300 12px FrutigerLTBold;
 	text-align: center;
+	color: rgba(172, 171, 171, 0.7);
 }
 
 .question{
@@ -528,7 +533,7 @@ h1{
 	-webkit-box-pack:justify;
 }
 .caption-calc p{
-	font: 300 17px frutiger_lt_std_black;
+	font: 300 18px FrutigerLTBlackCondensed;
 	color: #fff;
 }
 
@@ -546,7 +551,7 @@ h1{
 }
 
 .description-calc p{
-	font: 300 10px/1.5 FrutigerLTStd-BlackCn;
+	font: 300 10px/1.5 FrutigerLTBlackCondensed;
 	color: #fff;
 	margin: 2px 0 0 8px;
 }
@@ -593,4 +598,27 @@ h1{
 }
 .last-form{
 	float: right;
+}
+
+.footer-caption{
+	padding:8px;
+	background: #502d80;
+	font: 14px FrutigerLT;
+	color: #fff;
+}
+
+.list-item{
+	display: -webkit-box;
+	-webkit-box-pack:justify;
+}
+
+.list-item p{
+	font: 11px FrutigerLT;
+	color: #7B7A7A;
+	padding: 8px;
+}
+
+.list-item span{
+	font-size: 12px;
+	color: #E32385;
 }

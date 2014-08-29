@@ -41,13 +41,13 @@ slider.onmousemove = function(e){
 	{
 		getPosition = 0;
 	}
-	if(temp >= 80 && clickOnSlider == true && getPosition > -1200){
-		getPosition = parseInt(getPosition) - 600;
+	if(temp >= 50 && clickOnSlider == true && getPosition > -1400){
+		getPosition = parseInt(getPosition) - 700;
 		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
 		activatedAnimate();
 	}
-	else if(temp <= -80 && clickOnSlider == true && getPosition < 0){
-		getPosition = parseInt(getPosition) + 600;
+	else if(temp <= -50 && clickOnSlider == true && getPosition < 0){
+		getPosition = parseInt(getPosition) + 700;
 		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
 		activatedAnimate();
 	}
