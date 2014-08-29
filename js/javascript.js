@@ -6,24 +6,25 @@ var slider = document.getElementById('slider'),
 	balance = document.getElementsByClassName('balance'),
 	inputs = document.getElementsByTagName('input'),
 	outputs = document.getElementsByTagName('output'),
-	buttons = document.getElementsByTagName('li');
+	buttons = document.getElementsByTagName('li'),
 	clickOnSlider = false,
 	coordinateY = 0;
+const space = 700;
 
 function activatedAnimate(getPosition){
-	if(bodyElement.classList.contains('animate')){
-		bodyElement.classList.remove('animate');
-	}
-	else{
-		bodyElement.classList.add('animate');
-	}
+		if(bodyElement.classList.contains('animate')){
+			bodyElement.classList.remove('animate');
+		}
+		else{
+			bodyElement.classList.add('animate');
+		}
 	clickOnSlider = false;
 	function checkFooterDescription(positionElement){
 		var footerText = document.getElementsByClassName("footer-text")[0];
 		switch (positionElement){
 			case 0 : footerText.innerHTML = "aXarelto is contraindicated in lesions or conditions, if they are considered to be a significant <br>risk for major<br> bleeding, which may include the presence of malignant neoplasms at high risk of bleeding. bOutcome: symptomatic, recurrent VTE."; break;
-			case -700 : footerText.innerHTML = "<sup>a</sup>Patients participating in EINSTEIN DVT trial had confirmed acute symptomatic DVT without symptomatic PE and completed two measures of treatment satisfaction;<br> ACTS (Anti Clot Treatment Scale) and TSQM (Treatment Satisfaction Questionnaire for Medication) in follow up visits.<sup>5,16</sup><br> <sup>b</sup>Score values given for burdens and benefits measured by ACTS; effectiveness, side effects, convenience and global satisfaction measured by TSQM scale.<sup>16</sup>"; break;
-			case -1400 : footerText.innerHTML = "Numbers provided are based on general epidemiological reserch and on trial experience from the Phase III Programme whith Xarelto. Helthcare practice<br> may be different in your country(both before and after introduction of Xarelto), and thus the estimation may not reflect your country's perspective<br> Actual costs are not included"; break;
+			case -space : footerText.innerHTML = "<sup>a</sup>Patients participating in EINSTEIN DVT trial had confirmed acute symptomatic DVT without symptomatic PE and completed two measures of treatment satisfaction;<br> ACTS (Anti Clot Treatment Scale) and TSQM (Treatment Satisfaction Questionnaire for Medication) in follow up visits.<sup>5,16</sup><br> <sup>b</sup>Score values given for burdens and benefits measured by ACTS; effectiveness, side effects, convenience and global satisfaction measured by TSQM scale.<sup>16</sup>"; break;
+			case -space*2 : footerText.innerHTML = "Numbers provided are based on general epidemiological reserch and on trial experience from the Phase III Programme whith Xarelto. Helthcare practice<br> may be different in your country(both before and after introduction of Xarelto), and thus the estimation may not reflect your country's perspective<br> Actual costs are not included"; break;
 		}
 	}
 	checkFooterDescription(getPosition);
@@ -59,13 +60,13 @@ slider.onmousemove = function(e){
 	{
 		getPosition = 0;
 	}
-	if(temp >= 50 && clickOnSlider == true && getPosition > -1400){
-		getPosition = parseInt(getPosition) - 700;
+	if(temp >= 50 && clickOnSlider == true && getPosition > -space*2){
+		getPosition = parseInt(getPosition) - space;
 		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
 		activatedAnimate(getPosition);
 	}
 	else if(temp <= -50 && clickOnSlider == true && getPosition < 0){
-		getPosition = parseInt(getPosition) + 700;
+		getPosition = parseInt(getPosition) + space;
 		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
 		activatedAnimate(getPosition);
 	}
@@ -154,17 +155,18 @@ inputs[1].oninput = function(){
 
 
 buttons[1].onclick = function(e){
+	bodyElement.classList.remove('animate');
 	e.preventDefault();
 	display.style.webkitTransform = 'translateY('+ 0 + 'px)';
 	activatedAnimate(0);
 }
 buttons[2].onclick = function(e){
 	e.preventDefault();
-	display.style.webkitTransform = 'translateY('+ -700 + 'px)';
-	activatedAnimate(-700);
+	display.style.webkitTransform = 'translateY('+ -space + 'px)';
+	activatedAnimate(-space);
 }
 buttons[3].onclick = function(e){
 	e.preventDefault();
-	display.style.webkitTransform = 'translateY('+ -1400 + 'px)';
-	activatedAnimate(-1400);
+	display.style.webkitTransform = 'translateY('+ -space*2 + 'px)';
+	activatedAnimate(-space*2);
 }
