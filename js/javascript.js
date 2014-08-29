@@ -27,6 +27,16 @@ function activatedAnimate(getPosition){
 		}
 	}
 	checkFooterDescription(getPosition);
+
+	balance[0].classList.remove('left-balanse-right-translate');
+	balance[1].classList.remove('right-balanse-right-translate');
+	balance[0].classList.remove('left-balanse-left-translate');
+	balance[1].classList.remove('right-balanse-left-translate');
+	lever.classList.remove('right-rotate');
+	lever.classList.remove('left-rotate');
+
+	inputs[0].value = "";
+	inputs[1].value = "";
 }
 bodyElement.onload = function(){
 	bodyElement.classList.add('animate');
