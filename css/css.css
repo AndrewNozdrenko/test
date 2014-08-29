@@ -131,6 +131,7 @@ h1{
 
 .vertical-line li{
 	position: relative;
+	font: 14px FrutigerLTStd-Bold;
 }
 
 .vertical-line li:before{
@@ -189,9 +190,9 @@ h1{
 .bar p{
 	color:#fff;
 	text-align: center;
-	font-size: 12px;
 	opacity: 0;
 	transition:opacity 1s linear;
+	font: 12px FrutigerLTStd-Bold;
 }
 
 .animate .graph-main .bar{
@@ -207,13 +208,14 @@ h1{
 	text-align: center;
 	color: #000;
 	margin-top: 0px;
+	font: 14px FrutigerLTStd-Bold;
 }
 
 .patients{
 	position: absolute;
 	top: 180px;
 	left: 48px;
-	font: 600 14px PTSans;
+	font: 14px FrutigerLTStd-BlackCn;
 }
 
 .patients sup{
@@ -238,6 +240,14 @@ h1{
 	position: absolute;
 	bottom: -28px;
 	left: -5px;
+}
+
+.bottom-text p, .bottom-text strong{
+	font: 14px FrutigerLTStd-Bold;
+}
+
+p.bottom-bar-text{
+	font: 12px frutiger_lt_std_black;
 }
 
 .man{

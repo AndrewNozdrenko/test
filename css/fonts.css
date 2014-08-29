@@ -11,6 +11,12 @@
 	font-family: FrutigerLTBold;
 	src: url(../fonts/Frutiger-LT-65-Bold.ttf);
 }
+
+@font-face {
+	font-family: FrutigerLTStd-Bold;
+	src: url(../fonts/FrutigerLTStd-Bold.otf);
+}
+
 @font-face {
 	font-family: FrutigerLTLight;
 	src: url(../fonts/FrutigerLT45Light.ttf);
