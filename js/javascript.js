@@ -164,9 +164,11 @@ buttons[2].onclick = function(e){
 	e.preventDefault();
 	display.style.webkitTransform = 'translateY('+ -space + 'px)';
 	activatedAnimate(-space);
+	bodyElement.classList.remove('animate');
 }
 buttons[3].onclick = function(e){
 	e.preventDefault();
 	display.style.webkitTransform = 'translateY('+ -space*2 + 'px)';
 	activatedAnimate(-space*2);
+	bodyElement.classList.remove('animate');
 }
