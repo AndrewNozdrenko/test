@@ -10,7 +10,7 @@ var slider = document.getElementById('slider'),
 	coordinateX = 0,
 	coordinateY = 0;
 
-function activatedAnimate(){
+function activatedAnimate(getPosition){
 	if(bodyElement.classList.contains('animate')){
 		bodyElement.classList.remove('animate');
 	}
@@ -18,6 +18,15 @@ function activatedAnimate(){
 		bodyElement.classList.add('animate');
 	}
 	clickOnSlider = false;
+	function checkFooterDescription(positionElement){
+		var footerText = document.getElementsByClassName("footer-text")[0];
+		switch (positionElement){
+			case 0 : footerText.innerHTML = "aXarelto is contraindicated in lesions or conditions, if they are considered to be a significant <br>risk for major<br> bleeding, which may include the presence of malignant neoplasms at high risk of bleeding. bOutcome: symptomatic, recurrent VTE."; break;
+			case -700 : footerText.innerHTML = "<sup>a</sup>Patients participating in EINSTEIN DVT trial had confirmed acute symptomatic DVT without symptomatic PE and completed two measures of treatment satisfaction;<br> ACTS (Anti Clot Treatment Scale) and TSQM (Treatment Satisfaction Questionnaire for Medication) in follow up visits.<sup>5,16</sup><br> <sup>b</sup>Score values given for burdens and benefits measured by ACTS; effectiveness, side effects, convenience and global satisfaction measured by TSQM scale.<sup>16</sup>"; break;
+			case -1400 : footerText.innerHTML = "Numbers provided are based on general epidemiological reserch and on trial experience from the Phase III Programme whith Xarelto. Helthcare practice<br> may be different in your country(both before and after introduction of Xarelto), and thus the estimation may not reflect your country's perspective<br> Actual costs are not included"; break;
+		}
+	}
+	checkFooterDescription(getPosition);
 }
 bodyElement.onload = function(){
 	bodyElement.classList.add('animate');
@@ -44,12 +53,12 @@ slider.onmousemove = function(e){
 	if(temp >= 50 && clickOnSlider == true && getPosition > -1400){
 		getPosition = parseInt(getPosition) - 700;
 		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
-		activatedAnimate();
+		activatedAnimate(getPosition);
 	}
 	else if(temp <= -50 && clickOnSlider == true && getPosition < 0){
 		getPosition = parseInt(getPosition) + 700;
 		display.style.webkitTransform = 'translateY('+ getPosition + 'px)';
-		activatedAnimate();
+		activatedAnimate(getPosition);
 	}
 }
 

@@ -58,7 +58,7 @@ h1{
 }
 
 .menu ul li a{
-	font: 15px PTSans;
+	font: 15px FrutigerLTStd-BoldCn;
 	color: #676767;
 	text-decoration: none;
 }
@@ -257,11 +257,11 @@ p.bottom-bar-text{
 }
 
 .footer-text{
-	font-size: 12px;
+	font: 12px FrutigerLTLight;
 	color: #000;
 	margin: 10px auto 0 auto;
 	padding-bottom: 72px;
-	width: 810px;
+	width: 865px;
 }
 
 .patientReported{
@@ -637,4 +637,11 @@ p.bottom-bar-text{
 .list-item span{
 	font-size: 12px;
 	color: #E32385;
+}
+
+.bottom-scrolling{
+	width: 1024px;
+	height: 24px;
+	background: url("../images/bottom-scroll.png");
+	background-size: contain;
 }
