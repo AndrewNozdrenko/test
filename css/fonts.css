@@ -21,6 +21,12 @@
 	src: url(../fonts/FrutigerLTStd-BlackCn.otf);
 }
 
+@font-face {
+	font-family: FrutigerLTStd-Black;
+	src: url(../fonts/FrutigerLTStd-Black.otf);
+}
+
+
 
 @font-face {
 	font-family: frutiger_lt_std_black;
@@ -31,4 +37,11 @@
 @font-face {
 	font-family: FrutigerLTBlackCondensed;
 	src: url(../fonts/FrutigerLT87ExtraBlackCondensed.ttf);
+}
+
+
+
+@font-face {
+	font-family: FrutigerLTStd-BoldCn;
+	src: url(../fonts/FrutigerLTStd-BoldCn.otf);
 }

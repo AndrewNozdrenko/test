@@ -313,6 +313,7 @@ h1{
 	top: -47px;
 	left: -48px;
 	width: 134px;
+	font: 14px FrutigerLTStd-Black;
 }
 
 .arrow .secont-higer{
@@ -365,7 +366,7 @@ h1{
 .balance p{
 	margin-top: 128px;
 	color: #fff;
-	font:600 14px PTSans;
+	font: 20px FrutigerLTStd-Black;
 }
 
 .right{
@@ -397,20 +398,25 @@ h1{
 .fault{
 	color: #fff;
 	margin: 0 0 4px 35px;
+	font: 14px FrutigerLTStd-Black;
 }
 
 .global-satisfaction{
 	position: absolute;
 	bottom: -22px;
-	left: 10px;
+	left: 4px;
 	color: #5b2c81;
-	font: 600 12px PTSans;
+	font: 12px FrutigerLTStd-Black;
+	width: 148px;
 }
 
 .legend{
 	margin: 24px 0 0 130px;
-	font: 600 14px/1.8 PTSans;
 	position: relative;
+}
+
+.g-legend{
+	font: 14px/1.8 FrutigerLTStd-Black;
 }
 
 .g-legend:before{
@@ -490,9 +496,9 @@ h1{
 }
 
 .header-calculation input::-webkit-input-placeholder{
-	font: 300 12px FrutigerLTBold;
+	font: 300 12px FrutigerLTStd-BoldCn;
 	text-align: center;
-	color: rgba(172, 171, 171, 0.7);
+	color: rgb(172, 171, 171);
 }
 
 .question{
