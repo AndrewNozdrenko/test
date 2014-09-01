@@ -6,7 +6,7 @@
 }
 
 body{
-	font:300 14px FrutigerLT;
+	font: 300 14px FrutigerLT;
 }
 
 h1{
@@ -21,7 +21,7 @@ h1{
 
 .wrapper{
 	width: 1024px;
-	margin:0 auto;
+	margin: 0 auto;
 }
 
 .menu{
@@ -59,8 +59,9 @@ h1{
 	padding: 14px 58px;
 	display: block;
 }
+
 .menu ul li a:active{
-	box-shadow: inset 1px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
 	padding: 14px 58px;
 }
 
@@ -101,8 +102,8 @@ h1{
 .display{
 	width: 880px;
 	height: 2100px;
-	-webkit-translate:translateY('0px');
-	transition:all 1s ease-in-out;
+	-webkit-translate: translateY('0px');
+	transition: all 1s ease-in-out;
 }
 
 .graph h1{
@@ -177,32 +178,33 @@ h1{
 	-webkit-box-orient: vertical;
 	-webkit-box-pack: justify;
 	-webkit-transform: scaleY(0);
-	-webkit-transform-origin:left bottom;
-	transition:transform 1s linear;
+	-webkit-transform-origin: left bottom;
+	transition: transform 1s linear;
 }
 
 .bar.two{
 	bottom: 0;
 	left: 225px;
-	background:#e3007c;
+	background: #e3007c;
 	height: 150px;
 }
 
 .bar p{
-	color:#fff;
+	color: #fff;
 	text-align: center;
 	opacity: 0;
-	transition:opacity 1s linear;
+	transition: opacity 1s linear;
 	font: 12px FrutigerLTStd-Bold;
 }
 
 .animate .graph-main .bar{
-	-webkit-transform:scaleY(1);
-	transition-delay:1s;
+	-webkit-transform: scaleY(1);
+	transition-delay: 1s;
 }
+
 .animate .graph-main .bar p{
 	opacity: 1;
-	transition-delay:2s;
+	transition-delay: 2s;
 }
 
 .percent-calculation{
@@ -304,7 +306,7 @@ p.bottom-bar-text{
 	height: 0;
 	border: 18px solid transparent;
 	border-top: 26px solid #1785a3;
-	top:100%;
+	top: 100%;
 	left: -10px;
 }
 
@@ -315,7 +317,7 @@ p.bottom-bar-text{
 	height: 0;
 	border: 18px solid transparent;
 	border-bottom: 26px solid #ff0090;
-	bottom:100%;
+	bottom: 100%;
 	left: -10px;
 }
 
@@ -340,8 +342,8 @@ p.bottom-bar-text{
 	background-size: contain;
 	margin: 78px 0 0 262px;
 	display: -webkit-box;
-	-webkit-box-orient:vertical;
-	-webkit-box-pack:end;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: end;
 
 }
 
@@ -352,14 +354,15 @@ p.bottom-bar-text{
 	height: 8px;
 	bottom: 100%;
 	left: -60px;
-	transition:all 1s linear;
+	transition: all 1s linear;
 }
 
 .lever.left-rotate{
-	 -webkit-transform:rotateZ(-10deg);
- }
+	-webkit-transform: rotateZ(-10deg);
+}
+
 .lever.right-rotate{
-	-webkit-transform:rotateZ(10deg);
+	-webkit-transform: rotateZ(10deg);
 }
 
 .balance{
@@ -370,8 +373,8 @@ p.bottom-bar-text{
 	background-size: contain;
 	left: -97px;
 	display: -webkit-box;
-	-webkit-box-pack:center;
-	-webkit-box-align:center;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
 }
 
 .balance p{
@@ -386,24 +389,27 @@ p.bottom-bar-text{
 	background: url("../images/right-balance.png");
 	background-size: contain;
 	left: 102px;
-	transition:all 1s linear;
+	transition: all 1s linear;
 }
+
 .left{
-	transition:all 1s linear;
+	transition: all 1s linear;
 }
 
 .left-balanse-left-translate{
-	-webkit-transform:translateY(17px);
+	-webkit-transform: translateY(17px);
 }
+
 .left-balanse-right-translate{
-	-webkit-transform:translateY(-17px);
+	-webkit-transform: translateY(-17px);
 }
 
 .right-balanse-left-translate{
-	-webkit-transform:translateY(-17px);
+	-webkit-transform: translateY(-17px);
 }
+
 .right-balanse-right-translate{
-	-webkit-transform:translateY(17px);
+	-webkit-transform: translateY(17px);
 }
 
 .fault{
@@ -486,8 +492,8 @@ p.bottom-bar-text{
 	background: -webkit-linear-gradient(bottom, #9c9c9d, #fdfeff);
 	border: 1px solid #9c9b9c;
 	display: -webkit-box;
-	-webkit-box-pack:center;
-	-webkit-box-align:center;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
 }
 
 .calculate{
@@ -535,20 +541,22 @@ p.bottom-bar-text{
 }
 
 .main-description span{
-	color: #E32385;
-	font-family:  FrutigerLTStd-BlackCn;
+	color: #e32385;
+	font-family: FrutigerLTStd-BlackCn;
 }
+
 .main-description p strong{
-	color: #7B7A7A;
+	color: #7b7a7a;
 	font-family: FrutigerLTStd-BlackCn;
 }
 
 .caption-calc{
 	background: #b6b5b5;
-	padding:7px 8px;
+	padding: 7px 8px;
 	display: -webkit-box;
-	-webkit-box-pack:justify;
+	-webkit-box-pack: justify;
 }
+
 .caption-calc p{
 	font: 300 18px FrutigerLTBlackCondensed;
 	color: #fff;
@@ -560,10 +568,10 @@ p.bottom-bar-text{
 	background: #fff;
 	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.7);
 	display: -webkit-box;
-	-webkit-box-pack:center;
-	-webkit-box-align:center;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
 	font: 300 17px frutiger_lt_std_black;
-	color: #E32385;
+	color: #e32385;
 	overflow: hidden;
 }
 
@@ -592,19 +600,20 @@ p.bottom-bar-text{
 	top: 11px;
 	background: #7c7a7b;
 }
+
 .plus:before{
 	content: "";
 	position: absolute;
 	width: 12px;
 	height: 3px;
 	background: #7c7a7b;
-	-webkit-transform:rotateZ(90deg);
+	-webkit-transform: rotateZ(90deg);
 	left: 7px;
 	top: 11px;
 }
 
 .description-calc{
-	background: -webkit-linear-gradient(bottom, #C1C0C0, #e0e0df);
+	background: -webkit-linear-gradient(bottom, #c1c0c0, #e0e0df);
 	display: -webkit-box;
 	-webkit-box-align: center;
 	padding: 10px;
@@ -613,12 +622,13 @@ p.bottom-bar-text{
 .first-form{
 	float: left;
 }
+
 .last-form{
 	float: right;
 }
 
 .footer-caption{
-	padding:8px;
+	padding: 8px;
 	background: #502d80;
 	font: 14px FrutigerLT;
 	color: #fff;
@@ -626,18 +636,18 @@ p.bottom-bar-text{
 
 .list-item{
 	display: -webkit-box;
-	-webkit-box-pack:justify;
+	-webkit-box-pack: justify;
 }
 
 .list-item p{
 	font: 11px FrutigerLT;
-	color: #7B7A7A;
+	color: #7b7a7a;
 	padding: 8px;
 }
 
 .list-item span{
 	font-size: 12px;
-	color: #E32385;
+	color: #e32385;
 }
 
 .bottom-scrolling{
