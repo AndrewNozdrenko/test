@@ -24,7 +24,7 @@ function activatedAnimate(getPosition){
 		var footerText = document.getElementsByClassName("footer-text")[0];
 		switch(positionElement){
 			case 0 :
-				footerText.innerHTML = "aXarelto is contraindicated in lesions or conditions, if they are considered to be a significant <br>risk for major<br> bleeding, which may include the presence of malignant neoplasms at high risk of bleeding. bOutcome: symptomatic, recurrent VTE.";
+				footerText.innerHTML = "<sup>a</sup>Xarelto is contraindicated in lesions or conditions, if they are considered to be a significant risk for major<br> bleeding, which may include the presence of malignant neoplasms at high risk of bleeding.<br> <sup>b</sup>Outcome: symptomatic, recurrent VTE.";
 				break;
 			case -space :
 				footerText.innerHTML = "<sup>a</sup>Patients participating in EINSTEIN DVT trial had confirmed acute symptomatic DVT without symptomatic PE and completed two measures of treatment satisfaction;<br> ACTS (Anti Clot Treatment Scale) and TSQM (Treatment Satisfaction Questionnaire for Medication) in follow up visits.<sup>5,16</sup><br> <sup>b</sup>Score values given for burdens and benefits measured by ACTS; effectiveness, side effects, convenience and global satisfaction measured by TSQM scale.<sup>16</sup>";
