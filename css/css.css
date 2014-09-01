@@ -65,7 +65,6 @@ h1{
 	padding: 14px 58px;
 }
 
-
 .menu-bottom{
 	background-image: url("../images/bottom_menu.png");
 	background-size: 100% 100%;
@@ -474,7 +473,7 @@ p.bottom-bar-text{
 }
 
 .calculation h1{
-	margin-bottom:35px;
+	margin-bottom: 35px;
 }
 
 .form{

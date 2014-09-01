@@ -59,7 +59,7 @@ slider.onmouseup = function(){
 	clickMouseUp = true;
 	setTimeout(function(){
 		clickMouseUp = false;
-	},10);
+	}, 10);
 }
 
 slider.onmousemove = function(e){
@@ -70,7 +70,7 @@ slider.onmousemove = function(e){
 	if(getPosition === ''){
 		getPosition = 0;
 	}
-	if(temp >= 50 && 	clickMouseUp === true && clickOnSlider == true && getPosition > -space * 2){
+	if(temp >= 50 && clickMouseUp === true && clickOnSlider == true && getPosition > -space * 2){
 		getPosition = parseInt(getPosition) - space;
 		display.style.webkitTransform = 'translateY(' + getPosition + 'px)';
 		activatedAnimate(getPosition);
