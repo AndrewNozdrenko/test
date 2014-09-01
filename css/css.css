@@ -276,7 +276,7 @@ p.bottom-bar-text{
 	font-size: 27px;
 	width: 770px;
 	text-align: center;
-	margin: 14px auto 30px auto;
+	margin: 34px auto 54px auto;
 }
 
 .block-container{
@@ -450,7 +450,7 @@ p.bottom-bar-text{
 
 .bottom-description{
 	position: absolute;
-	bottom: 142px;
+	bottom: 100px;
 	right: 30px;
 	width: 145px;
 	height: 83px;
