@@ -283,16 +283,16 @@ p.bottom-bar-text{
 	width: 820px;
 	margin: 0 auto;
 	height: 400px;
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 	background: #fff;
 	display: -webkit-box;
 }
 
 .arrow{
-	width: 16px;
-	height: 192px;
+	width: 12px;
+	height: 224px;
 	background: linear-gradient(to top, #1785a3, #ff0090);
-	margin: 98px 0 0 80px;
+	margin: 81px 0 0 80px;
 	position: relative;
 }
 
@@ -301,7 +301,7 @@ p.bottom-bar-text{
 	position: absolute;
 	width: 0;
 	height: 0;
-	border: 18px solid transparent;
+	border: 16px solid transparent;
 	border-top: 26px solid #1785a3;
 	top: 100%;
 	left: -10px;
@@ -312,7 +312,7 @@ p.bottom-bar-text{
 	position: absolute;
 	width: 0;
 	height: 0;
-	border: 18px solid transparent;
+	border: 16px solid transparent;
 	border-bottom: 26px solid #ff0090;
 	bottom: 100%;
 	left: -10px;
@@ -320,14 +320,14 @@ p.bottom-bar-text{
 
 .arrow strong{
 	position: absolute;
-	top: -47px;
+	top: -52px;
 	left: -48px;
 	width: 134px;
 	font: 14px FrutigerLTStd-Black;
 }
 
 .arrow .secont-higer{
-	top: 222px;
+	top: 255px;
 	left: -45px;
 }
 
@@ -337,7 +337,7 @@ p.bottom-bar-text{
 	height: 246px;
 	background: url("../images/tool.png");
 	background-size: contain;
-	margin: 78px 0 0 262px;
+	margin: 72px 0 0 262px;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-box-pack: end;
@@ -425,7 +425,7 @@ p.bottom-bar-text{
 }
 
 .legend{
-	margin: 24px 0 0 130px;
+	margin: 45px 0 0 130px;
 	position: relative;
 }
 
@@ -450,14 +450,14 @@ p.bottom-bar-text{
 
 .bottom-description{
 	position: absolute;
-	bottom: 100px;
+	bottom: 82px;
 	right: 30px;
-	width: 145px;
-	height: 83px;
+	width: 168px;
+	height: 98px;
 	background: #fff;
 	text-align: center;
 	color: #4a2278;
-	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .bottom-description p{
@@ -653,3 +653,4 @@ p.bottom-bar-text{
 	background: url("../images/bottom-scroll.png");
 	background-size: contain;
 }
+
