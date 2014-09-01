@@ -39,10 +39,10 @@ function activatedAnimate(getPosition){
 
 	checkFooterDescription(getPosition);
 
-	balance[0].classList.remove('left-balanse-right-translate');
-	balance[1].classList.remove('right-balanse-right-translate');
-	balance[0].classList.remove('left-balanse-left-translate');
-	balance[1].classList.remove('right-balanse-left-translate');
+	balance[0].classList.remove('left-balance-right-translate');
+	balance[1].classList.remove('right-balance-right-translate');
+	balance[0].classList.remove('left-balance-left-translate');
+	balance[1].classList.remove('right-balance-left-translate');
 	lever.classList.remove('right-rotate');
 	lever.classList.remove('left-rotate');
 
@@ -92,16 +92,16 @@ legend[0].onclick = function(){
 	else{
 		lever.classList.add('left-rotate');
 	}
-	if(balance[0].classList.contains('left-balanse-right-translate')){
-		balance[0].classList.remove('left-balanse-right-translate');
-		balance[1].classList.remove('right-balanse-right-translate');
+	if(balance[0].classList.contains('left-balance-right-translate')){
+		balance[0].classList.remove('left-balance-right-translate');
+		balance[1].classList.remove('right-balance-right-translate');
 
-		balance[0].classList.add('left-balanse-left-translate');
-		balance[1].classList.add('right-balanse-left-translate');
+		balance[0].classList.add('left-balance-left-translate');
+		balance[1].classList.add('right-balance-left-translate');
 	}
 	else{
-		balance[0].classList.add('left-balanse-left-translate');
-		balance[1].classList.add('right-balanse-left-translate');
+		balance[0].classList.add('left-balance-left-translate');
+		balance[1].classList.add('right-balance-left-translate');
 	}
 }
 
@@ -113,16 +113,16 @@ legend[1].onclick = function(){
 	else{
 		lever.classList.add('right-rotate');
 	}
-	if(balance[1].classList.contains('right-balanse-left-translate')){
-		balance[0].classList.remove('left-balanse-left-translate');
-		balance[1].classList.remove('right-balanse-left-translate');
+	if(balance[1].classList.contains('right-balance-left-translate')){
+		balance[0].classList.remove('left-balance-left-translate');
+		balance[1].classList.remove('right-balance-left-translate');
 
-		balance[0].classList.add('left-balanse-right-translate');
-		balance[1].classList.add('right-balanse-right-translate');
+		balance[0].classList.add('left-balance-right-translate');
+		balance[1].classList.add('right-balance-right-translate');
 	}
 	else{
-		balance[0].classList.add('left-balanse-right-translate');
-		balance[1].classList.add('right-balanse-right-translate');
+		balance[0].classList.add('left-balance-right-translate');
+		balance[1].classList.add('right-balance-right-translate');
 	}
 }
 

@@ -390,19 +390,19 @@ p.bottom-bar-text{
 	transition: all 1s linear;
 }
 
-.left-balanse-left-translate{
+.left-balance-left-translate{
 	-webkit-transform: translateY(17px);
 }
 
-.left-balanse-right-translate{
+.left-balance-right-translate{
 	-webkit-transform: translateY(-17px);
 }
 
-.right-balanse-left-translate{
+.right-balance-left-translate{
 	-webkit-transform: translateY(-17px);
 }
 
-.right-balanse-right-translate{
+.right-balance-right-translate{
 	-webkit-transform: translateY(17px);
 }
 
