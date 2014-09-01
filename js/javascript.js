@@ -28,9 +28,11 @@ function activatedAnimate(getPosition){
 				break;
 			case -space :
 				footerText.innerHTML = "<sup>a</sup>Patients participating in EINSTEIN DVT trial had confirmed acute symptomatic DVT without symptomatic PE and completed two measures of treatment satisfaction;<br> ACTS (Anti Clot Treatment Scale) and TSQM (Treatment Satisfaction Questionnaire for Medication) in follow up visits.<sup>5,16</sup><br> <sup>b</sup>Score values given for burdens and benefits measured by ACTS; effectiveness, side effects, convenience and global satisfaction measured by TSQM scale.<sup>16</sup>";
+				bodyElement.classList.remove('animate');
 				break;
 			case -space * 2 :
 				footerText.innerHTML = "Numbers provided are based on general epidemiological reserch and on trial experience from the Phase III Programme whith Xarelto. Helthcare practice<br> may be different in your country(both before and after introduction of Xarelto), and thus the estimation may not reflect your country's perspective<br> Actual costs are not included";
+				bodyElement.classList.remove('animate');
 				break;
 		}
 	}
@@ -165,7 +167,6 @@ inputs[1].oninput = function(){
 
 
 buttons[1].onclick = function(e){
-	bodyElement.classList.remove('animate');
 	e.preventDefault();
 	display.style.webkitTransform = 'translateY(' + 0 + 'px)';
 	activatedAnimate(0);
@@ -174,11 +175,9 @@ buttons[2].onclick = function(e){
 	e.preventDefault();
 	display.style.webkitTransform = 'translateY(' + -space + 'px)';
 	activatedAnimate(-space);
-	bodyElement.classList.remove('animate');
 }
 buttons[3].onclick = function(e){
 	e.preventDefault();
 	display.style.webkitTransform = 'translateY(' + -space * 2 + 'px)';
 	activatedAnimate(-space * 2);
-	bodyElement.classList.remove('animate');
 }
