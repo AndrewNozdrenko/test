@@ -56,7 +56,6 @@ slider.onmousedown = function(e){
 }
 
 slider.onmouseup = function(){
-//	clickOnSlider = false;
 	clickMouseUp = true;
 	setTimeout(function(){
 		clickMouseUp = false;
