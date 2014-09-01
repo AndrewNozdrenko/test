@@ -8,6 +8,7 @@ var slider = document.getElementById('slider'),
 	outputs = document.getElementsByTagName('output'),
 	buttons = document.getElementsByTagName('li'),
 	clickOnSlider = false,
+	clickMouseUp = false,
 	coordinateY = 0;
 const space = 700;
 
@@ -55,7 +56,11 @@ slider.onmousedown = function(e){
 }
 
 slider.onmouseup = function(){
-	clickOnSlider = false;
+//	clickOnSlider = false;
+	clickMouseUp = true;
+	setTimeout(function(){
+		clickMouseUp = false;
+	},10);
 }
 
 slider.onmousemove = function(e){
@@ -66,12 +71,12 @@ slider.onmousemove = function(e){
 	if(getPosition === ''){
 		getPosition = 0;
 	}
-	if(temp >= 50 && clickOnSlider == true && getPosition > -space * 2){
+	if(temp >= 50 && 	clickMouseUp === true && clickOnSlider == true && getPosition > -space * 2){
 		getPosition = parseInt(getPosition) - space;
 		display.style.webkitTransform = 'translateY(' + getPosition + 'px)';
 		activatedAnimate(getPosition);
 	}
-	else if(temp <= -50 && clickOnSlider == true && getPosition < 0){
+	else if(temp <= -50 && clickMouseUp === true && clickOnSlider == true && getPosition < 0){
 		getPosition = parseInt(getPosition) + space;
 		display.style.webkitTransform = 'translateY(' + getPosition + 'px)';
 		activatedAnimate(getPosition);
