@@ -128,7 +128,7 @@ legend[1].onclick = function(){
 
 inputs[0].oninput = function(){
 	var a, b, c, w, d, g, enterValue, sum, multiply;
-	enterValue = this.value;
+	enterValue = parseFloat(this.value);
 
 	b = 182 * (0.122 * enterValue);
 	c = 16 * (enterValue - (0.122 * enterValue));
@@ -149,7 +149,7 @@ inputs[0].oninput = function(){
 
 inputs[1].oninput = function(){
 	var b, c, w, d, sum, multiply, enterValue, result;
-	enterValue = this.value;
+	enterValue = parseFloat(this.value);
 
 	b = 182 * (enterValue * 0.176);
 	c = 16 * (enterValue - 0.176 * enterValue);
