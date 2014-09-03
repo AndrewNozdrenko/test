@@ -248,6 +248,7 @@ h1 sup{
 .bottom-text p, .bottom-text strong{
 	font: 14px FrutigerLTStd-Bold;
 }
+
 .bottom-text strong{
 	display: block;
 	margin-top: 9px;
@@ -269,6 +270,7 @@ p.bottom-bar-text{
 	margin: 25px 0 4px 107px;
 	padding-bottom: 12px;
 	height: 55px;
+	width: 860px;
 }
 
 .patientReported{
