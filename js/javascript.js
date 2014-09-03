@@ -10,7 +10,7 @@ var slider = document.getElementById('slider'),
 	clickOnSlider = false,
 	clickMouseUp = false,
 	coordinateY = 0;
-const space = 700;
+const space = 600;
 
 function activatedAnimate(getPosition){
 	if(bodyElement.classList.contains('animate')){
