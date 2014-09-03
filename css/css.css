@@ -639,7 +639,8 @@ p.bottom-bar-text{
 .list-item p{
 	font: 11px FrutigerLT;
 	color: #7b7a7a;
-	padding: 8px;
+	padding: 8px 45px 8px 12px;
+	background: linear-gradient(to bottom, #e8f0f8, #fff);
 }
 
 .list-item span{
