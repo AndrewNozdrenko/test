@@ -266,8 +266,9 @@ p.bottom-bar-text{
 .footer-text{
 	font: 12px FrutigerLTLight;
 	color: #000;
-	margin: 36px 0 22px 107px;
-	padding-bottom: 20px;
+	margin: 25px 0 4px 107px;
+	padding-bottom: 12px;
+	height: 55px;
 }
 
 .patientReported{
