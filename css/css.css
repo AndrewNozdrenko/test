@@ -196,6 +196,14 @@ h1 sup{
 	transition: opacity 1s linear;
 	font: 14px FrutigerLTStd-Bold;
 }
+.bar p small{
+
+	font-size: 11px;
+	
+
+	line-height: 2.4;
+
+}
 
 .animate .graph-main .bar{
 	-webkit-transform: scaleY(1);
@@ -268,7 +276,7 @@ p.bottom-bar-text{
 	font: 12px FrutigerLTLight;
 	color: #000;
 	margin: 25px 0 4px 107px;
-	padding-bottom: 12px;
+	padding-bottom: 38px;
 	height: 55px;
 	width: 860px;
 }
@@ -655,7 +663,7 @@ p.bottom-bar-text{
 	font: 14px FrutigerLT;
 	color: #7b7a7a;
 	padding: 7px 11px 12px 12px;
-	background: linear-gradient(to bottom, #e8f0f8, #fff);
+	background: linear-gradient(to bottom, rgba(232,239,248,0.5), rgba(255,255,255,0.4));
 }
 
 .list-item p sup{
